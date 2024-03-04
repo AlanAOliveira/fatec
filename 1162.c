@@ -2,19 +2,22 @@
  
 int main() {
  
-    int N, L, OE, OS, i;
+    int N, L, i, j, k;
     
-    scanf("%i", &N);
+    scanf("%i", &N);    
     int S[N];
     
     for(i=0; i<N; i++){
-       scanf("%i", &L);
-       
-       for(i=0;i<L;i++)
-            
-    }   
+        scanf("%i", &L);
+        int OE[l], OS[l];
         
-    
+        for(j=0;j<L;j++){
+            scanf(" %i",&OE[j]);
+            OS[j] = OE[j];
+        }
+        
+        for(j=0;j<L;j++)
+            while()
  
-    return 0;
+    }return 0;
 }
